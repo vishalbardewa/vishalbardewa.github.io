@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Vishal Singh Bardewa', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
@@ -12,7 +12,7 @@ export const heroData = {
   title: '',
   name: 'Vishal Singh Bardewa',
   subtitle: 'I am a Full Stack Developer',
-  cta: 'Checkout my superpowers',
+  cta: 'Checkout my superpowers 💪',
 };
 
 // ABOUT DATA
@@ -29,11 +29,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Triplet Checker',
+    info: 'Checks for Triangular Triplet',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/vishalbardewa/TripletChecker', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -58,8 +58,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Connect with me',
+  email: 'bardewavishal@gmail.com',
 };
 
 // FOOTER DATA
@@ -83,7 +83,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/vishalbardewa',
     },
   ],
 };
